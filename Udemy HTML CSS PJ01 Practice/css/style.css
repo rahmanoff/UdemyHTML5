@@ -1,0 +1,47 @@
+/*
+#page-title{
+    text-align: center;
+}
+
+#picture-container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid red;
+    width: 100%;
+}
+
+
+#image{
+    width: 100%;
+}
+*/
+
+#picture-css{
+    width: 1200px;
+    height: 600px;
+    background-image: url(../img/image1.png);
+    margin: 10px auto;
+    
+}
+
+#hovers{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../img/image1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers h2{
+    text-align: center;
+}
+
+#hovers:hover{
+    background-color: #555;
+    border-color: red;
+    color: green;
+    opacity: 1;
+}
